@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spencodromix Games</title>
+<meta name="description" content="Spencodromix Games – kolorowe, bezpieczne gry dla dzieci na Androida. Bez reklam.">
+<link rel="icon" href="img/zwierzaki-icon.png">
+<style>
+:root{--bg:#f4faff;--card:#fff;--ink:#23303b;--muted:#5d6b78;--brand:#2f86d6;--accent:#ff9a1f;--line:#dde8f2}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:var(--brand)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{background:linear-gradient(160deg,#7cc8ff,#2f86d6);color:#fff;padding:64px 0 72px;text-align:center}
+header h1{margin:0;font-size:clamp(2rem,6vw,3.2rem);letter-spacing:.5px}
+header p{margin:12px auto 0;max-width:560px;font-size:1.15rem;opacity:.95}
+section{padding:48px 0}
+h2{font-size:1.6rem;margin:0 0 20px}
+.game{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
+.game img.shot{width:100%;border-radius:14px;display:block}
+.title{display:flex;gap:14px;align-items:center}
+.title img{width:64px;height:64px;border-radius:16px}
+.title h3{margin:0;font-size:1.4rem}
+.badge{display:inline-block;background:#fff3e0;color:#b25f00;border-radius:999px;padding:2px 12px;font-size:.85rem;font-weight:600}
+ul.points{padding-left:20px;margin:12px 0}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.value{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.value b{display:block;margin-bottom:4px}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:.95rem}
+@media (max-width:720px){.game{grid-template-columns:1fr}.values{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Spencodromix Games</h1>
+    <p>Kolorowe, spokojne i bezpieczne gry dla najmłodszych na Androida.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Nasze gry</h2>
+    <div class="game">
+      <img class="shot" src="img/zwierzaki-screen.jpg" alt="Zrzut ekranu gry Zwierzaki Puzzle">
+      <div>
+        <div class="title">
+          <img src="img/zwierzaki-icon.png" alt="">
+          <div>
+            <h3>Zwierzaki Puzzle</h3>
+            <span class="badge">Wkrótce w Google Play</span>
+          </div>
+        </div>
+        <ul class="points">
+          <li>36 autorskich obrazków ze zwierzętami, dinozaurami i bajkowymi postaciami</li>
+          <li>6 poziomów trudności, od 4 do 30 elementów</li>
+          <li>Wesołe dźwięki i odgłosy zwierząt</li>
+          <li>Bez reklam i bez zbierania danych</li>
+        </ul>
+        <a href="zwierzaki-puzzle/polityka-prywatnosci.html">Polityka prywatności</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Jak tworzymy gry</h2>
+    <div class="values">
+      <div class="value"><b>Bez reklam</b>Dziecko może grać bez przypadkowych kliknięć i rozpraszaczy.</div>
+      <div class="value"><b>Bez śledzenia</b>Nasze gry nie zbierają danych osobowych.</div>
+      <div class="value"><b>Strefa rodzica</b>Zakupy i ustawienia są ukryte za pytaniem dla dorosłych.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Pytania, uwagi lub pomysły? Napisz do nas: <a href="mailto:spencodromix.games@gmail.com">spencodromix.games@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Spencodromix Games · <a href="zwierzaki-puzzle/polityka-prywatnosci.html">Polityka prywatności Zwierzaki Puzzle</a></div>
+</footer>
+</body>
+</html>
